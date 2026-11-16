@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Arquivos brutos do CIFAR (~675 MB, baixados conforme o README)
+data-raw/
+
+# Imagens geradas pelo `npm run import-cifar` (recriáveis a qualquer momento)
+dataset/**/cifar_*.png
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Logs e builds
+dist/
+build/
+*.log
+*.tsbuildinfo
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~

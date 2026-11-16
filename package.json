@@ -1,0 +1,29 @@
+{
+  "name": "d1",
+  "version": "1.0.0",
+  "description": "CNN feita à mão em TypeScript para classificar 7 tipos de imagem",
+  "main": "index.js",
+  "scripts": {
+    "import-cifar": "tsx cli/import-cifar.ts",
+    "train": "tsx cli/train.ts",
+    "predict": "tsx cli/predict.ts",
+    "gradcheck": "tsx cli/gradcheck.ts",
+    "summary": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "heic-decode": "^2.1.0",
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/heic-decode": "^2.0.1",
+    "@types/node": "^26.6.6",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
